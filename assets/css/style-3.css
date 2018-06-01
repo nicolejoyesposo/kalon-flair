@@ -1,0 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Rancho', cursive;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2em;
+	text-align: left;
+}
+
+h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: left;
+}
+
+h4 {
+	font-family: 'Exo', sans-serif;
+}
+
+p {
+	font-family: 'Poor Story', cursive;
+	text-align: left;
+}
+
+
+
+
+
+.portfolio img { /*BRIEF STORY*/
+	height: 500px;
+	width: 660px;
+	align-self: center;
+	padding-top: 20px;
+}
+ 
+.portfolio {
+	text-align: center;
+}
+
+/*NAVBAR*/
+.nav-item a {
+	margin-top: 45px;
+	text-align: center;
+}
+
+#logo img{
+	height: 100px;
+	margin-left: 16px;
+}
+/*FOOTER*/
+.page-footer {
+	background-color: #469173;
+	color: white;
+}
+
+.list-unstyled a {
+	color: white;
+}
+
+.footer-copyright a {
+	color: white;
+}
+
+
+
+
+
+
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { ... }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }

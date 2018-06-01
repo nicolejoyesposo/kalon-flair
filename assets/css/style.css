@@ -1,0 +1,119 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+h1 {
+	font-family: 'Rancho', cursive;
+	text-align: center;
+	padding-top: 10px;
+}
+
+h3 {
+	font-family: 'Gloria Hallelujah', cursive;
+	text-align: center;
+}
+
+h4 {
+	font-family: 'Exo', sans-serif;
+}
+
+p {
+	font-family: 'Poor Story', cursive;
+}
+
+/*NAVIGATION*/
+.nav-item a {
+	margin-top: 45px;
+	text-align: center;
+}
+
+#logo img{
+	height: 100px;
+	margin-left: 16px;
+}
+
+/*HEADER*/
+#bg-header {
+	background: url("../images/bg-header.jpg");
+	height: 600px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	background-attachment: fixed;
+}
+
+#title {
+	text-align: left;
+	padding-top: 50%;
+	color: white;
+}
+
+.text-title {
+	color: #469173;
+	font-size: 1.2em;
+	background-color: #e0eadf;
+	border-radius: 20%;
+}
+
+#subtitle {
+	text-align: center;
+	font-size: 2em;
+	color: #469173;
+}
+
+
+/*2ND CONTENT*/
+.client-logo img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: 1px solid black;
+	margin-bottom: 10px;
+}
+
+
+/*TEAM*/
+.img-team img {
+	height: 300px;
+	width: 450px;
+}
+
+
+/*FOOTER*/
+.page-footer {
+	background-color: #469173;
+	color: white;
+}
+
+.list-unstyled a {
+	color: white;
+}
+
+.footer-copyright a {
+	color: white;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+#title {
+	text-align: center;
+	padding-top: 10%;
+	color: white;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { ... }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { ... }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
