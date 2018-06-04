@@ -7,6 +7,7 @@
       box-sizing: border-box;
       text-align: left;
       font-family: 'Quicksand', sans-serif;
+      overflow-x: hidden;
 }
 
 /*.test {
