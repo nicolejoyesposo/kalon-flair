@@ -1,0 +1,208 @@
+ 
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-align: left;
+}
+
+/*.test {
+      border: 1px solid black;
+}*/
+
+html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+}
+
+h2 {
+      text-align: center;
+      padding-bottom: 40px;
+}
+
+/*NAVIGATION*/
+
+header {
+      width: 100%;
+      height: 100vh;
+      background: url(../images/header-1.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      padding-bottom: 80px;
+      background-attachment: fixed;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 10px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 10000;
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 5px 5px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+}
+
+nav ul li a .fa {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+nav ul li a:hover {
+      color: #AC5358; /*RED*/
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+}
+/*NAVIGATION*/
+
+/*HEADING TITLE*/
+h1 {
+      padding-left: 10%;
+      padding-top: 50vh;
+      color: #f8f8ff; /*WHITE*/
+      line-height: 40px;
+}
+
+.title-strong {
+      font-family: 'Francois One', sans-serif;
+      font-size: 10vw;
+      color: #271517;
+}
+
+.title-adjust {
+      line-height: 100%;
+}
+
+.title-emp {
+      font-family: 'News Cycle', sans-serif;
+      font-size: 10vw;
+}
+
+#title {
+      width: 100%;
+      background: rgb(200, 54, 54); /* The Fallback */
+      background: rgba(200, 54, 54, 0.3);
+      padding-bottom: 100px;
+}
+/*HEADING TITLE*/
+
+
+
+/*FOOTER*/
+.bottom-footer {
+      background: #84474e;
+      color: white;
+}
+
+.footer {
+      background: #f6edee;
+}
+
+ul li a i {
+      color:#442123;
+}
+
+ul li a:hover {
+      color: #84474e ;
+}
+
+.bldg-img img {
+      z-index: 1000 !important;
+      width: 100%;
+      height: 300px;
+}

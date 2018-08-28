@@ -1,0 +1,254 @@
+/*LANDING PAGE-HOME*/
+
+ 
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Pathway Gothic One', sans-serif;
+      font-size: 1.1rem;
+}
+
+/*.test {
+      border: 1px solid black;
+}*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+
+/*NAVIGATION*/
+ 
+header {
+      width: 100%;
+      height: 90vh;
+      background: url(../images/cover/4.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      padding-bottom: 80px;
+      text-align: center;
+}
+
+.content {
+      width: 94%;
+      margin: 4em auto;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: justify;
+}
+
+.logo {
+      line-height: 60px;
+      position: fixed;
+      float: left;
+      margin: 4px 46px;
+      color: #fff;
+      font-weight: bold;
+      font-size: 20px;
+      letter-spacing: 2px;
+}
+
+nav {
+      position: fixed;
+      width: 100%;
+      line-height: 60px;
+      z-index: 10000;
+      background-color: rgba(0,0,0,0.6);
+}
+
+nav ul {
+      line-height: 60px;
+      list-style: none;
+      background: rgba(0, 0, 0, 0);
+      overflow: hidden;
+      color: #fff;
+      padding: 0;
+      text-align: right;
+      margin: 0;
+      padding-right: 40px;
+      transition: 1s;
+}
+
+nav.black ul {
+      background: #000;
+}
+
+nav ul li {
+      display: inline-block;
+      padding: 3px 3px;
+}
+
+nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 1.1rem;
+      font-family: 'Open Sans Condensed', sans-serif;
+}
+
+nav ul li a .fa {
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+}
+
+nav ul li a:hover {
+      color: #AC5358; /*RED*/
+      text-decoration: line-through;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu-icon {
+      line-height: 60px;
+      width: 100%;
+      background: #000;
+      text-align: right;
+      box-sizing: border-box;
+      padding: 15px 24px;
+      cursor: pointer;
+      color: #fff;
+      display: none;
+}
+
+@media(max-width: 786px) {
+
+      .logo {
+            position: fixed;
+            top: 0;
+            margin-top: 16px;
+      }
+
+      nav ul {
+            max-height: 0px;
+            background: #000;
+      }
+
+      nav.black ul {
+            background: #000;
+      }
+
+      .showing {
+            max-height: 34em;
+      }
+
+      nav ul li {
+            box-sizing: border-box;
+            width: 100%;
+            padding: 24px;
+            text-align: center;
+      }
+
+      .menu-icon {
+            display: block;
+      }
+}
+/*NAVIGATION*/
+
+/*HEADING TITLE*/
+.quote {
+  text-align: left;
+  padding-left: 40px;
+  padding-right: 20px;
+  color: white;
+}
+
+.quote h1 {
+  transform: translate(0px, 200px);
+  font-size: 3.5rem;
+}
+
+
+/*HEADING TITLE*/
+
+/*ABOUT SECTION*/
+.about {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+}
+
+.about p {
+  color: #666666;
+}
+
+/*ABOUT SECTION*/
+
+#parallax-1 {
+      width: 100%;
+      height: 100vh;
+      background: url(../images/archi.jpg) no-repeat 50% 50%;
+      background-size: cover;
+      padding-bottom: 80px;
+      background-attachment: fixed;
+      display: block;
+}
+
+/*SERVICES SECTION*/
+#services-bg {
+  background: url(../images/cover/2.jpg) no-repeat 50% 50%;
+  height: 30vh;
+  width: 100%;
+  background-size: cover;
+  text-align: right;
+  padding: 50px;
+}
+
+
+.services-txt span {
+  background-color: rgba(255,255,255,0.5);
+  padding: 5px;
+  font-size: 2.2rem;
+}
+
+
+/*SERVICES SECTION*/
+
+/*PORTOLIO*/
+.portfolio {
+      text-align: center;
+}
+
+.portfolio img {
+      width: 250px;
+      height: 200px;
+}
+
+.portfo {
+  padding-top: 100px;
+}
+/*PORFOLIO*/
+
+/*FOOTER*/
+.bottom-footer {
+      background: #84474e;
+      color: white;
+}
+
+.footer {
+      background: #f6edee;
+}
+
+ul li a i {
+      color:#442123;
+}
+
+ul li a:hover {
+      color: #84474e ;
+}
+
+.bldg-img img {
+      z-index: 1000 !important;
+      width: 280px;
+      height: 300px;
+}

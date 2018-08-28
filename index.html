@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+      <title>HOME</title>
+
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+
+      <!-- GOOGLE FONTS --> 
+       <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Pathway+Gothic+One" rel="stylesheet">
+
+      <!-- FONT AWESOME -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+      <script type="text/javascript">
+
+       // Menu-toggle button
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+      // Scrolling Effect
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+      // Menu-toggle button
+      </script>
+</head>
+
+
+
+<body>
+
+<!-- NAVIGATION -->
+      <div class="wrapper">
+            <header>
+                  <nav>
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+                        <div class="logo">
+                              |KALON FLAIR 
+                        </div>
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="portfolio.html">Portfolio</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+
+                                    
+                          <li class="list-inline-item">
+                            <a href="https://facebook.com" class="btn-floating btn-fb mx-1">
+                              <i class="fa fa-facebook icon"> </i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://twitter.com" class="btn-floating btn-tw mx-1">
+                              <i class="fa fa-twitter icon"> </i>
+                            </a>
+                          </li>
+                          <li class="list-inline-item">
+                            <a href="https://google.com" class="btn-floating btn-gplus mx-1">
+                              <i class="fa fa-google-plus icon"> </i>
+                            </a>
+                          </li>
+                     
+                              </ul>
+                        </div>
+                  </nav>
+                <div class="quote">
+                  <h1>EVERY ROOM NEEDS A SLAP <br>IN THE FACE</h1>
+                </div>
+            </header>
+      </div>
+<!-- NAVIGATION -->
+      
+
+
+<!-- ABOUT -->
+ <div class="container about">
+   <div class="row">
+     <div class="col-md-2 offset-md-2">
+       <h2>Our Oath</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor</p>
+     </div>
+     <div class="col-md-2">
+       <h2>Our Goal</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor</p>
+     </div>
+     <div class="col-md-2">
+       <h2>Our Dream</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor</p>
+     </div>
+     <div class="col-md-2">
+       <h2>Our Vision</h2>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+       tempor</p>
+     </div>
+   </div>
+ </div>
+<!-- ABOUT -->
+
+
+<!-- SERVICES -->
+<div class="container-fluid" id="services-bg">
+  <div class="row services-txt">
+    <span>Luxury is in each detail</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+
+
+
+<!-- FOOTER -->
+    <footer class="page-footer footer font-small pt-4 mt-4">
+        <div class="container text-center text-md-left">
+        <div class="row">
+        <div class="col-md-4 mx-auto bldg-img">
+          <img src="assets/images/bldg.jpg">
+        </div>
+      
+          <hr class="clearfix w-100 d-md-none">
+          <div class="col-md-4 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">CONTACT US</h5>
+              <p>(123) 456 7890</p>
+              <p>kalon-flair@gmail.com</p>
+              <p>Caswynn Bldg, Timog Avenue, Diliman, Quezon City</p>
+          </div>
+
+          <hr class="clearfix w-100 d-md-none">
+          <div class="col-md-2 mx-auto">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">SEND US A MESSAGE</h5>
+              <p>Send us your inquiries</p>
+              <button type="button" class="btn btn-danger "><a href="contact.html">TALK TO US</a></button>
+
+          </div>
+
+          </div>
+        </div>
+
+  <hr>
+
+        <ul class="list-unstyled list-inline text-center py-2">
+            <li class="list-inline-item">
+              <h5 class="mb-1">JOIN OUR TEAM</h5>
+            </li>
+            <li class="list-inline-item">
+              <button type="button" class="btn btn-outline-danger">APPLY</button>
+            </li>
+        </ul>
+
+  <hr>
+
+        <ul class="list-unstyled list-inline text-center">
+          <li class="list-inline-item">
+            <a href="https://facebook.com" class="btn-floating btn-fb mx-1">
+              <i class="fa fa-facebook icon"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com" class="btn-floating btn-tw mx-1">
+              <i class="fa fa-twitter icon"> </i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://google.com" class="btn-floating btn-gplus mx-1">
+              <i class="fa fa-google-plus icon"> </i>
+            </a>
+          </li>
+        </ul>
+
+
+        <div class="footer-copyright text-center py-3 bottom-footer">© 2018 Copyright:
+          <a href="https://mdbootstrap.com/bootstrap-tutorial/"> nicolejoyesposo.t@gmail.com</a>
+        </div>
+
+
+</footer>
+<!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+ <script src="js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+
+    <!-- external bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+</body>
+</html>
